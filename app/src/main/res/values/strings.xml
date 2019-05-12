@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">REMA</string>
+    <string name="mpa_api_key">AIzaSyC6PECHCDb3T3AsCXulhPDdq7oR33_lVf0</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

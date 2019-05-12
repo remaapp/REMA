@@ -24,7 +24,7 @@ public class PageAdapter extends FragmentPagerAdapter {
             case 2:
                 return new EnvironmentFragment();
             case 3:
-                return new EnvironmentFragment();
+                return new Mapragment();
             default:
                 return null;
         }

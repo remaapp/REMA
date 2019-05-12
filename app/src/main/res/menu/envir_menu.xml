@@ -2,8 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/env_menus"
-        android:icon="@drawable/more_menu"
-        android:title="Environment"
-        app:showAsAction="ifRoom" />
+        android:id="@+id/app_bar_search_envir"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/envi_notif"
+        android:icon="@drawable/notifications_icon"
+        android:title="notification"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/w_climate"
+        android:title="More Envir "
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/setting_envir"
+        android:title="Setting"
+        app:showAsAction="never" />
 </menu>
